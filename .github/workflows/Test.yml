@@ -12,3 +12,4 @@ jobs:
     steps:
       - name: Run shell script
         run: sh ./run.sh
+        shell: pwsh
