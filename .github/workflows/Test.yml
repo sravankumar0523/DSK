@@ -1,0 +1,14 @@
+name: shell script
+on:
+  push:
+    branches: [ main ]
+  pull_request: 
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run shell script
+        run: sh ./run.sh
