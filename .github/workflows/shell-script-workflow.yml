@@ -16,3 +16,6 @@ jobs:
       
       - name: Run shell script
         run: sh ./shell-script.sh
+        
+      - name: create directory
+        run: sh ./createdirectory.sh
